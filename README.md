@@ -29,7 +29,7 @@ Veja os filmes disponíveis com seus pôsteres.
 
 📌 **Rota:** `/`  
 🖼️ **Imagem:**  
-<a href="https://cineflex-apfj3tm2y-nirmalas-projects.vercel.app/"><img src="src/assets/home.png" alt="Página Inicial" width="800"/></a>  
+<a href="https://cineflex-apfj3tm2y-nirmalas-projects.vercel.app/"><img src="src/assets/home.png" alt="Página Inicial" width="300"/></a>  
 
 ---
 
@@ -38,7 +38,7 @@ Escolha a data e horário para assistir ao filme.
 
 📌 **Rota:** `/sessions/:idFilm`  
 🖼️ **Imagem:**  
-<img src="src/assets/sessions.png" alt="Página de Sessões" width="800"/>  
+<img src="src/assets/sessions.png" alt="Página de Sessões" width="300"/>  
 
 ---
 
@@ -47,7 +47,7 @@ Escolha assentos disponíveis e preencha as informações de compra.
 
 📌 **Rota:** `/seats/:idSession`  
 🖼️ **Imagem:**  
-<img src="src/assets/seats.png" alt="Página de Assentos" width="800"/>  
+<img src="src/assets/seats.png" alt="Página de Assentos" width="300"/>  
 
 ---
 
@@ -56,7 +56,7 @@ Veja o resumo do pedido com as informações da compra.
 
 📌 **Rota:** `/success`  
 🖼️ **Imagem:**  
-<img src="src/assets/end.png" alt="Página de Sucesso" width="800"/>  
+<img src="src/assets/end.png" alt="Página de Sucesso" width="300"/>  
 
 ---
 

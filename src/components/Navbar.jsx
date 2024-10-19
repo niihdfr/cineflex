@@ -6,7 +6,9 @@ function Navbar () {
     return (
         <Nav>
             <Logo to="/"><img src={logo} alt="" /></Logo>
-            <h1>Cineflex</h1>
+            <Title to="/">
+                <h1>Cineflex</h1>
+            </Title>
         </Nav>
     )
 }
@@ -25,6 +27,12 @@ const Nav = styled.div `
     position: fixed;
     margin: 0;
     top: 0;
+        
+`
+
+const Title = styled(Link)`
+
+    text-decoration: none;
 
     h1 {
         color: #FADBC5;
@@ -32,7 +40,6 @@ const Nav = styled.div `
         font-weight: 600;
         font-size: 34px;
         cursor: pointer;
-        
 `
 
 const Logo = styled(Link)`

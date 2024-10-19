@@ -28,7 +28,7 @@ O **Cineflex** é um app de reserva de ingressos de cinema que permite a escolha
 Veja os filmes disponíveis com seus pôsteres.  
 
  
-<a href="https://cineflex-apfj3tm2y-nirmalas-projects.vercel.app/"><img src="src/assets/home.png" alt="Página Inicial" width="200"/></a>  
+<a href="https://cineflex-hx8wjdt2o-nirmalas-projects.vercel.app/"><img src="src/assets/home.png" alt="Página Inicial" width="200"/></a>  
 
 ---
 

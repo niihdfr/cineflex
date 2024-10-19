@@ -27,8 +27,7 @@ O **Cineflex** é um app de reserva de ingressos de cinema que permite a escolha
 ### 🏠 **Página Inicial – Lista de Filmes**  
 Veja os filmes disponíveis com seus pôsteres.  
 
-📌 **Rota:** `/`  
-🖼️ **Imagem:**  
+ 
 <a href="https://cineflex-apfj3tm2y-nirmalas-projects.vercel.app/"><img src="src/assets/home.png" alt="Página Inicial" width="200"/></a>  
 
 ---
@@ -36,8 +35,7 @@ Veja os filmes disponíveis com seus pôsteres.
 ### 🎥 **Sessões Disponíveis para um Filme**  
 Escolha a data e horário para assistir ao filme.  
 
-📌 **Rota:** `/sessions/:idFilm`  
-🖼️ **Imagem:**  
+  
 <img src="src/assets/sessions.png" alt="Página de Sessões" width="200"/>  
 
 ---
@@ -45,8 +43,7 @@ Escolha a data e horário para assistir ao filme.
 ### 🪑 **Seleção de Assentos**  
 Escolha assentos disponíveis e preencha as informações de compra.  
 
-📌 **Rota:** `/seats/:idSession`  
-🖼️ **Imagem:**  
+
 <img src="src/assets/seats.png" alt="Página de Assentos" width="200"/>  
 
 ---
@@ -54,8 +51,7 @@ Escolha assentos disponíveis e preencha as informações de compra.
 ### ✅ **Página de Sucesso**  
 Veja o resumo do pedido com as informações da compra.  
 
-📌 **Rota:** `/success`  
-🖼️ **Imagem:**  
+  
 <img src="src/assets/end.png" alt="Página de Sucesso" width="200"/>  
 
 ---

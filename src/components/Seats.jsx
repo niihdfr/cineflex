@@ -5,7 +5,7 @@ import { useParams, useNavigate } from "react-router-dom";
 
 function Seats() {
   const [seatsData, setSeatsData] = useState(null);
-  const [selectedSeats, setSelectedSeats] = useState([]); // Array de IDs dos assentos
+  const [selectedSeats, setSelectedSeats] = useState([]); 
   const [name, setName] = useState("");
   const [cpf, setCpf] = useState("");
   const { idSession } = useParams();
@@ -48,7 +48,7 @@ function Seats() {
         day: seatsData.day,
         selectedSeats: seatsData.seats.filter((seat) =>
           selectedSeats.includes(seat.id)
-        ), // Passa os assentos selecionados completos
+        ), 
         buyer: { name, cpf },
       },
     });

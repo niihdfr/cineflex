@@ -82,12 +82,21 @@ const Images = styled.div`
 const Image = styled(Link) `
     flex-wrap: wrap;
     cursor: pointer;
+    transition: transform 0.5s, background-color 0.5s;
     
     img {
         width: 145px;
         height: 210px;
         border-radius: 8px;
         cursor: pointer;
+    }
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    &:active {
+        transform: scale(0.98);
     }
     
 `

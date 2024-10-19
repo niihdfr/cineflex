@@ -38,7 +38,7 @@ function SessionsPage() {
 
                         <Times>
                         {s.showtimes.map((showtime) => (
-                            <Time key={showtime.id} to="">
+                            <Time key={showtime.id} to={`/showtimes/${showtime.id}/seats`}>
                                 {showtime.name}
                             </Time>
 
@@ -113,6 +113,7 @@ const Times = styled.div`
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 `;
 
 const Time = styled(Link)`
@@ -126,5 +127,14 @@ const Time = styled(Link)`
     padding: 10px 20px;
     cursor: pointer;
     margin-bottom: 16px;
+    transition: transform 0.5s, background-color 0.5s;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
 
 `;

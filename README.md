@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="React"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="JavaScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/styled-components/styled-components-plain.svg" height="60" alt="Styled Components"/>
+  <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="60" alt="Styled Components"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="60" alt="NPM"/>
 </p>  
 
@@ -29,7 +29,7 @@ Veja os filmes disponíveis com seus pôsteres.
 
 📌 **Rota:** `/`  
 🖼️ **Imagem:**  
-<a href="https://cineflex-apfj3tm2y-nirmalas-projects.vercel.app/"><img src="./assets/home.png" alt="Página Inicial" width="800"/></a>  
+<a href="https://cineflex-apfj3tm2y-nirmalas-projects.vercel.app/"><img src="src/assets/home.png" alt="Página Inicial" width="800"/></a>  
 
 ---
 
@@ -38,7 +38,7 @@ Escolha a data e horário para assistir ao filme.
 
 📌 **Rota:** `/sessions/:idFilm`  
 🖼️ **Imagem:**  
-<img src="./assets/sessions.png" alt="Página de Sessões" width="800"/>  
+<img src="src/assets/sessions.png" alt="Página de Sessões" width="800"/>  
 
 ---
 
@@ -47,7 +47,7 @@ Escolha assentos disponíveis e preencha as informações de compra.
 
 📌 **Rota:** `/seats/:idSession`  
 🖼️ **Imagem:**  
-<img src="./assets/seats.png" alt="Página de Assentos" width="800"/>  
+<img src="src/assets/seats.png" alt="Página de Assentos" width="800"/>  
 
 ---
 
@@ -56,7 +56,7 @@ Veja o resumo do pedido com as informações da compra.
 
 📌 **Rota:** `/success`  
 🖼️ **Imagem:**  
-<img src="./assets/end.png" alt="Página de Sucesso" width="800"/>  
+<img src="src/assets/end.png" alt="Página de Sucesso" width="800"/>  
 
 ---
 

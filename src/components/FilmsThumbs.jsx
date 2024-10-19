@@ -54,9 +54,13 @@ const Loading = styled.div `
 `
 
 const Content = styled.div` 
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
-    margin-top: 110px;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; 
+    margin: 110px auto 0px auto; 
 
     h2 {
         color: #FFFFFF;
@@ -66,14 +70,16 @@ const Content = styled.div`
         text-align: center;
         line-height: 39.13px;
         letter-spacing: 2px;
+        margin-bottom: 20px;
     }
+`;
 
-`
 
 const Images = styled.div` 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 600px;
     gap: 26px;
     margin-top: 20px;
     

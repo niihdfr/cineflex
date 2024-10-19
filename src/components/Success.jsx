@@ -71,6 +71,7 @@ const Details = styled.div`
   font-family: "Roboto", Arial;
   background-color: #2B2D36;
   border-radius: 8px;
+  max-width: 600px; 
 
   p {
     color: #EE897F;
@@ -121,6 +122,7 @@ const Button = styled.button`
   margin-top: 22px;
   margin-bottom: 50px;
   transition: transform 0.5s, background-color 0.5s;
+  max-width: 600px; 
 
     &:hover {
         transform: scale(1.01);

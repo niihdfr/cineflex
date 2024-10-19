@@ -131,6 +131,7 @@ const SeatsContainer = styled.div`
   gap: 7px;
   justify-content: center;
   width: 90%;
+  max-width: 400px;
   margin-top: -20px;
 `;
 
@@ -159,6 +160,7 @@ const Seat = styled.button`
 const Line = styled.div`
   width: 80%;
   border: 1px solid #4e5a65;
+  max-width: 400px;
   
 `;
 
@@ -172,6 +174,7 @@ const Form = styled.div`
     font-family: "Sarala";
     font-weight: 400;
     color: #FFFFFF;
+    max-width: 400px;
 
 
   input {
